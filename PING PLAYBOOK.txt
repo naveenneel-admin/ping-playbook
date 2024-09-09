@@ -1,0 +1,7 @@
+---
+ - name: check for ping response
+   hosts: vlab
+   tasks:
+     - name: ping module
+       ping:
+...
